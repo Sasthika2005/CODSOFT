@@ -1,0 +1,82 @@
+<----JS CODE--->
+
+var typed= new Typed(".multiple-text",{
+    strings: ["Frontend Developer", "Web Designer"],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 100,
+    loop: true
+
+});
+
+// const navs = document.querySelectorAll('header navbar a');
+// const cube = document.querySelector('.box');
+
+const resumeList = document.querySelectorAll('.resume-list');
+const resumeBox = document.querySelectorAll('.resume-box');
+
+const portfolioList = document.querySelectorAll('.portfolio-list');
+const portfolioBox = document.querySelectorAll('.portfolio-box');
+
+
+navs.forEach((nav,idx)=> {
+  nav.addEventListener('click', ()=>{
+    document.classList.remove('active');
+   document.querySelector('header nav a[href*-' + idx + ']').classList.add('active');
+
+  });
+});
+let navbar = document.querySelector('.navbar');
+
+menuIcon.onclick = () => {
+  menuIcon.classList.toggle("fa-xmark");
+  navbar.classList.toggle('active');
+
+}
+
+let sections = document.querySelectorAll('section');
+let navlinks = document.querySelectorAll('header nav a');
+
+window.onscroll = () => {
+  sections.forEach(sec =>  {
+    let top= window.scrollY;
+    let offset = sec.offsetTop - 150;
+    let height = sec.offsetHeight;
+    let id = sec.getAttribute('id');
+
+    if(top >= offset && top < offset + height) {
+      navlinks.forEach.apply(links => {
+        links.classList.remove('active');
+        document.querySelector('header nav a[href*-' + idx + ']').classList.add('active');
+      });
+    };
+  });
+
+  let header = document.querySelector('header');
+  header.classList.toggle('sticky', window.scrollY > 300);
+};
+
+
+
+//Resume sec when clicking tab-list
+resumeList.forEach((list, idx) => {
+    list.addEventListener('click', () => {
+      document.querySelector('.resume-list.active').classList.remove('active');
+      list.classList.add('active');
+
+      document.querySelector('.resume-box.active').classList.remove('active');
+      resumeBox[idx].classList.add('active');
+    });
+});
+
+//portfolio sec when clicking tab-list
+portfolioList.forEach((list, idx) => {
+  list.addEventListener('click', () => {
+    document.querySelector('.portfolio-list.active').classList.remove('active');
+    list.classList.add('active');
+    
+    document.querySelector('.portfolio-box.active').classList.remove('active');
+    portfolioBox[idx].classList.add('active');
+
+  });
+});
