@@ -1,0 +1,326 @@
+<---HTML CODE--->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="Portfolio.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!--header design-->
+    <header class="header">
+      <a href="#" class="logo">Portfolio.</a>
+
+      <nav class="navbar">
+        <a href="#home" style="--i:1"class="active">Home</a>
+        <a href="#about" style="--i:2">About</a>
+        <a href="#skills" style="--i:3">Skills</a>
+        <a href="#portfolio" style="--i:4">Portfolio</a>
+        <a href="#contact" style="--i:5">Contact</a>
+      </nav>
+    </header>
+
+   <!--section design-->
+   <!-- <div class="Container">
+   <div class="box"> -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Sasthika</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, nlujkikjm jmok jojnj jnjvg natus tempore eos placeat?</p>
+             
+            <div class="social-media">
+                <!--import icons from boxicons-->
+                <a href="#" style="--i:7"><i class='bx bxl-facebook'></i></a>
+                <a href="#" style="--i:8"><i class='bx bxl-twitter' ></i></a>
+                <a href="#" style="--i:9"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="#" style="--i:10"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="https://cdn.myportfolio.com/79c13939-28e6-4ee8-a0ec-02aeb900c0a6/2c16477c-1a79-47aa-a9df-684a621af12f_rw_1920.jpg?h=eb797d698830b2f5cd479fa830e5e80d" alt="" class="portimg">
+        </div>
+    </section>
+
+   <section class="about" id="about">
+    <h2 class="about-heading">About <span>Me</span></h2>
+
+    <div class="about-img">
+        <img src="https://cdn.myportfolio.com/79c13939-28e6-4ee8-a0ec-02aeb900c0a6/2c16477c-1a79-47aa-a9df-684a621af12f_rw_1920.jpg?h=eb797d698830b2f5cd479fa830e5e80d" alt="">
+        <span class="circle-spin"></span>
+    </div>
+
+    <div class="about-content">
+        <h3>Frontend Developer!</h3>
+        <p>As a frontend developer and web designer,I create 
+            intuitive and visually appealing digital experiences. 
+            With a strong foundation in HTML, CSS, and JavaScript,
+             I craft responsive and user-friendly interfaces that 
+             bring ideas to life.
+          </p>
+
+    <div class="btn-box.btns">
+        <a href="#" class="btn">Read More</a>
+    </div>
+
+   </section>
+
+   <!--resume  (Experience , skills , service)-->
+   <section class="section resume" id="skills">
+       <h2 class="title">Resume</h2>
+    <div class="tab-box">
+
+        <div class="tab-list resume-list active">
+            <h3>Experience</h3>
+        </div>
+
+        <div class="tab-list resume-list">
+            <h3>Skills</h3>
+        </div>
+
+        <div class="tab-list resume-list">
+            <h3>Education</h3>
+        </div>
+    </div>
+
+    <div class="tab-wrapper">
+        <div class="tab-grid resume-box experience active">
+            <div class="tab-item resume-item">
+                <h4>2025 - Present</h4>
+                <h4>Frontend Developer</h4>
+                <h4>Google</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, 
+                exercitationem repellat, molestias explicabo necessitatibus, incidunt doloribus voluptates in error fuga est officiis.
+                </p>
+               
+            </div>
+
+            <div class="tab-item resume-item">
+                <h4>2025 - 2025</h4>
+                <h4>Frontend Developer</h4>
+                <h4>Google</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, 
+                exercitationem repellat, molestias explicabo necessitatibus, incidunt doloribus voluptates in error fuga est officiis.
+                </p>
+               
+            </div>
+
+            <div class="tab-item resume-item">
+                <h4>2025 - 2025</h4>
+                <h4>Frontend Developer</h4>
+                <h4>Google</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, 
+                exercitationem repellat, molestias explicabo necessitatibus, incidunt doloribus voluptates in error fuga est officiis.
+                </p>
+               
+            </div>
+            
+            <div class="tab-item resume-item">
+                <h4>2025 - 2025</h4>
+                <h4>Frontend Developer</h4>
+                <h4>Google</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, 
+                exercitationem repellat, molestias explicabo necessitatibus, incidunt doloribus voluptates in error fuga est officiis.
+                </p>
+               
+            </div>
+
+            <div class="tab-item resume-item">
+                <h4>2025 - 2025</h4>
+                <h4>Frontend Developer</h4>
+                <h4>Google</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, 
+                exercitationem repellat, molestias explicabo necessitatibus, incidunt doloribus voluptates in error fuga est officiis.
+                </p>
+               
+            </div>
+
+            <div class="tab-item resume-item">
+                <h4>2025 - 2025</h4>
+                <h4>Frontend Developer</h4>
+                <h4>Google</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, 
+                exercitationem repellat, molestias explicabo necessitatibus, incidunt doloribus voluptates in error fuga est officiis.
+                </p>
+               
+            </div>
+        </div>
+
+        <div class="tab-grid resume-box skills">
+            <div class="tab-item resume-item">
+                <i class='bx bxl-html5' ></i>
+                <p>HTML5</p>
+            </div>
+            <div class="tab-item resume-item">
+                <i class='bx bxl-css3' ></i>
+                <p>CSS3</p>
+            </div>
+            <div class="tab-item resume-item">
+                <i class='bx bxl-javascript' ></i>
+                <p>JavaScript</p>
+            </div>
+            <div class="tab-item resume-item">
+                <i class='bx bxl-react' ></i>
+                <p>React.Js</p>
+            </div>
+            <div class="tab-item resume-item">
+                <i class='bx bxl-java' ></i>
+                <p>JAVA</p>
+            </div>
+            <div class="tab-item resume-item">
+                <i class='bx bxl-figma' ></i>
+                <p>Figma</p>
+            </div>
+
+        </div>
+
+        <div class="tab-grid resume-box education">
+            <div class="tab-item resume-item">
+                <h4>2023 - 2027</h4>
+                <h4>Bachelor of Technology </h4>
+                <h4>Anna University</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, 
+                exercitationem repellat, molestias explicabo necessitatibus, incidunt doloribus voluptates in error fuga est officiis.
+                </p>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <section class="section portfolio" id="portfolio">
+    <h2 class="title">portfolio</h2>
+    <div class="tab-box">
+
+        <div class="tab-list portfolio-list active">
+            <h3>My Work</h3>
+        </div>
+        <div class="tab-list portfolio-list">
+            <h3>My Service</h3>
+        </div>
+    </div>
+
+       <div class="tab-wrapper">
+
+        <div class="tab-grid portfolio-box work active">
+            <div class="tab-item portfolio-item">
+                <div class="work-img">
+                    <img src="https://img.freepik.com/free-vector/flat-design-colored-portfolio-template_23-2149215470.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="tab-item portfolio-item">
+                <div class="work-img">
+                    <img src="https://img.freepik.com/free-vector/flat-design-colored-portfolio-template_23-2149215470.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="tab-item portfolio-item">
+                <div class="work-img">
+                    <img src="https://img.freepik.com/free-vector/flat-design-colored-portfolio-template_23-2149215470.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="tab-grid portfolio-box service">
+            <div class="tab-item portfolio-item">
+                <p>service TEST</p>
+            </div> 
+            <div class="tab-grid resume-box experience active">
+                <div class="tab-item resume-item">
+                    
+                    <h4>Frontend Developer</h4>
+                    <h4>Google</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, 
+                    exercitationem repellat, molestias explicabo necessitatibus, incidunt doloribus voluptates in error fuga est officiis.
+                    </p>
+                   
+                </div>
+    
+                <div class="tab-item resume-item">
+                    
+                    <h4>Frontend Developer</h4>
+                    <h4>Google</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, 
+                    exercitationem repellat, molestias explicabo necessitatibus, incidunt doloribus voluptates in error fuga est officiis.
+                    </p>
+                   
+                </div>
+    
+                <div class="tab-item resume-item">
+                    
+                    <h4>Frontend Developer</h4>
+                    <h4>Google</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, 
+                    exercitationem repellat, molestias explicabo necessitatibus, incidunt doloribus voluptates in error fuga est officiis.
+                    </p>
+                   
+                </div>
+                
+                <div class="tab-item resume-item">
+                    
+                    <h4>Frontend Developer</h4>
+                    <h4>Google</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, 
+                    exercitationem repellat, molestias explicabo necessitatibus, incidunt doloribus voluptates in error fuga est officiis.
+                    </p>
+                   
+                </div>
+    
+                <div class="tab-item resume-item">
+                 
+                    <h4>Frontend Developer</h4>
+                    <h4>Google</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, 
+                    exercitationem repellat, molestias explicabo necessitatibus, incidunt doloribus voluptates in error fuga est officiis.
+                    </p>
+                   
+                </div>
+    
+                <div class="tab-item resume-item">
+                    
+                    <h4>Frontend Developer</h4>
+                    <h4>Google</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, 
+                    exercitationem repellat, molestias explicabo necessitatibus, incidunt doloribus voluptates in error fuga est officiis.
+                    </p>
+                   
+                </div>
+        </div>
+
+       </div>
+   </section>
+
+   <section class="section contact" id="contact">
+    <h2 class="title">Contact</h2>
+    <div class="contact-wrapper">
+        <form action="" class="contact-form">
+            <h3>Let's Work Together</h3>
+            <div class="field-box">
+                <input type="text " placeholder="full Name" required>
+                <input type="text " placeholder="Email Address" required>
+                <input type="text " placeholder="Phone Number" required>
+                <input type="text " placeholder="Your Messsage" required>
+                <textarea name="" id="" placeholder="Your Message"></textarea>
+            </div>
+            <div class="contact-btn">
+                <button type="submit" class="btn">Send Message</button>
+            </div>
+        </form>
+    </div>
+   </section>
+   <!-- </div>
+   </div> -->
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="Portfolio.js"></script>
+</body>
+</html>
