@@ -1,0 +1,111 @@
+<---HTML CODE--->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=stylesheet href="LandingPage.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <section>
+    <div class="container">
+        <nav>
+        <ul>
+            <li><a href="Home">Home</a></li>
+            <li><a href="Features">Features</a></li>
+            <li><a href="Menu">Menu</a></li>
+            <li><a href="About Us">About Us</a></li>
+            <li><a href="Contact Us">Contact Us</a></li>
+        </ul>
+        </nav>
+
+        <div class="theme">
+            <h1>coffee cafe</h1>
+            <p class="btn">Make your day great with our<br>special coffee!</p>
+            <p class="btn2"><a href="btn1">Get Started</a></p>
+                </div>
+
+    </div>
+    </section>
+</body>
+</html>
+
+<---CSS CODE--->
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color:#fff;
+}
+section{
+    min-height: 100vh;
+    background-image: url("../Codsoft/Images/cofee.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container{
+    margin: auto;
+    width: 85%;
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    List-style: none;
+    padding: 0px 15px;
+
+}
+
+nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    /* for increase width up and down in nav color hovering */
+    padding: 7px 8px;
+}
+nav ul li a:hover{
+    background-color: #eb7620;
+    /* //for slow rising of colored frame for nav bar elements */
+    transition: 0.5s ease;
+}
+.theme h1{
+    text-transform: uppercase;
+    font-size: 500%;
+    color: burlywood;
+}
+.theme
+{
+    padding-top:220px;
+   
+}
+.theme .btn{
+    font-size: 200%;
+    color: white;
+}
+.theme .btn2{
+  line-height: 100px;
+  padding-left: 100px;
+  font-size: x-large;
+  
+}
+.theme a{
+    background-color:saddlebrown;
+    padding: 7px 8px;
+    text-decoration: none;
+}
+.theme a:hover{
+    transform: translateY(-10px);
+    font-size: larger;
+
+    transition: 0.5s ease-in-out
+}
+
